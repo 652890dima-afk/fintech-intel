@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>金融商分情报 · 2026.11.25</title>
+  <style>
+    :root {
+      --bg: #F6F5F0;
+      --paper: #FFFFFF;
+      --ink: #111827;
+      --ink-2: #374151;
+      --muted: #6B7280;
+      --line: #E5E2D9;
+      --line-strong: #111827;
+      --accent-navy: #1E3A5F;
+      --accent-green: #0F5132;
+      --accent-blue: #1D4ED8;
+      --accent-crimson: #B91C1C;
+      --soft-crimson: #FEF2F2;
+      --soft-amber: #FFFBEB;
+      --soft-blue: #EFF6FF;
+      --soft-green: #ECFDF5;
+      --radius: 10px;
+      --shadow: 0 1px 3px rgba(17,24,39,0.04), 0 6px 20px rgba(17,24,39,0.04);
+      --shadow-hover: 0 4px 14px rgba(17,24,39,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    /* Top Editorial Masthead */
+    .masthead {
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
+    }
+    .masthead-top {
+      background: #0F172A;
+      color: #CBD5E1;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+    }
+    .masthead-top-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 7px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .masthead-main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 22px 24px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .brand-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent-crimson);
+      margin-bottom: 4px;
+    }
+    .brand-title {
+      font-family: "Songti SC", "STSong", "Noto Serif SC", Georgia, serif;
+      font-size: 30px;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      color: var(--ink);
+      line-height: 1.15;
+    }
+    .brand-sub {
+      margin-top: 6px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .search-wrap {
+      position: relative;
+      width: 260px;
+      max-width: 100%;
+    }
+    .search-input {
+      width: 100%;
+      padding: 9px 14px 9px 34px;
+      font-size: 13px;
+      background: var(--bg);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--ink);
+      outline: none;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .search-input:focus {
+      border-color: var(--ink);
+      background: var(--paper);
+    }
+    .search-icon {
+      position: absolute;
+      left: 11px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      font-size: 13px;
+      pointer-events: none;
+    }
+
+    /* Sticky Layer Navigation */
+    .nav-bar {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      background: rgba(255,255,255,0.96);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      overflow-x: auto;
+    }
+    .tabs {
+      display: flex;
+      gap: 6px;
+      white-space: nowrap;
+    }
+    .tab-btn {
+      appearance: none;
+      background: transparent;
+      border: none;
+      border-bottom: 2.5px solid transparent;
+      padding: 13px 14px 11px;
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--muted);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .tab-btn:hover { color: var(--ink); }
+    .tab-btn.active {
+      color: var(--ink);
+      border-bottom-color: var(--ink);
+    }
+    .tab-btn.active[data-layer="layer3"] {
+      color: var(--accent-crimson);
+      border-bottom-color: var(--accent-crimson);
+    }
+    .tab-count {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 1px 6px;
+      border-radius: 999px;
+      background: var(--bg);
+      color: var(--ink-2);
+    }
+    .tab-btn.active .tab-count {
+      background: var(--ink);
+      color: #FFF;
+    }
+    .tab-btn.active[data-layer="layer3"] .tab-count {
+      background: var(--accent-crimson);
+      color: #FFF;
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 24px 24px 56px;
+    }
+
+    /* Executive Briefing Strip */
+    .brief-strip {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+    .brief-box {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-top: 3px solid var(--ink);
+      border-radius: var(--radius);
+      padding: 15px 18px;
+      box-shadow: var(--shadow);
+    }
+    .brief-box.l1 { border-top-color: var(--accent-navy); }
+    .brief-box.l2 { border-top-color: var(--accent-green); }
+    .brief-box.l3 { border-top-color: var(--accent-crimson); }
+    .brief-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .brief-stat {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 4px;
+    }
+    .brief-desc {
+      font-size: 12.5px;
+      color: var(--ink-2);
+      line-height: 1.5;
+    }
+
+    /* Filter Bar */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 18px;
+      padding: 12px 16px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+    }
+    .pill-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+    .pill {
+      appearance: none;
+      background: transparent;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 5px 12px;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--ink-2);
+      cursor: pointer;
+      transition: all 0.14s;
+    }
+    .pill:hover { border-color: var(--ink); color: var(--ink); }
+    .pill.active {
+      background: var(--ink);
+      border-color: var(--ink);
+      color: #FFF;
+      font-weight: 600;
+    }
+
+    /* Section Header */
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      border-bottom: 2px solid var(--ink);
+      padding-bottom: 8px;
+      margin: 28px 0 16px;
+    }
+    .section-head:first-child { margin-top: 0; }
+    .section-head h2 {
+      font-family: "Songti SC", "STSong", "Noto Serif SC", Georgia, serif;
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--ink);
+    }
+    .section-head span {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* Notice Banner */
+    .notice-banner {
+      background: var(--soft-amber);
+      border: 1px solid #FDE68A;
+      border-left: 4px solid #D97706;
+      border-radius: 8px;
+      padding: 13px 16px;
+      font-size: 13.5px;
+      color: #78350F;
+      margin-bottom: 18px;
+    }
+
+    /* Editorial Grid & Cards */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      box-shadow: var(--shadow);
+      transition: transform 0.16s ease, box-shadow 0.16s ease;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-hover);
+    }
+    .card.featured {
+      grid-column: 1 / -1;
+      border-left: 4px solid var(--accent-navy);
+      padding: 22px 26px;
+    }
+    .card.featured.reg {
+      border-left-color: var(--accent-crimson);
+    }
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      font-size: 11.5px;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+    }
+    .tag {
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 11px;
+    }
+    .tag-eu { background: var(--soft-green); color: var(--accent-green); }
+    .tag-cn { background: var(--soft-blue); color: var(--accent-blue); }
+    .tag-reg { background: var(--soft-crimson); color: var(--accent-crimson); }
+    .tag-cat { background: var(--bg); color: var(--ink-2); }
+    .entity-name { font-weight: 700; color: var(--ink); }
+    .card-date { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--muted); font-size: 11.5px; }
+
+    .card-title {
+      font-size: 16.5px;
+      font-weight: 700;
+      line-height: 1.42;
+      color: var(--ink);
+    }
+    .card.featured .card-title {
+      font-size: 19px;
+    }
+    .card-summary {
+      font-size: 13.5px;
+      color: var(--ink-2);
+      line-height: 1.65;
+    }
+
+    /* Metrics Table for Layer 1 */
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+      background: var(--bg);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px 14px;
+    }
+    .metric-item {
+      font-size: 12.5px;
+      line-height: 1.45;
+    }
+    .metric-k {
+      color: var(--muted);
+      font-weight: 600;
+      display: block;
+      font-size: 11px;
+    }
+    .metric-v {
+      color: var(--ink);
+      font-weight: 600;
+    }
+
+    /* Insight Callout */
+    .insight {
+      border-left: 3px solid var(--accent-navy);
+      background: #F8FAFC;
+      padding: 10px 13px;
+      border-radius: 0 6px 6px 0;
+      font-size: 12.8px;
+      color: var(--ink-2);
+      line-height: 1.58;
+    }
+    .insight.reg {
+      border-left-color: var(--accent-crimson);
+      background: #FDF8F8;
+    }
+    .insight strong {
+      color: var(--ink);
+    }
+    .insight.reg strong {
+      color: var(--accent-crimson);
+    }
+
+    .card-foot {
+      margin-top: auto;
+      padding-top: 8px;
+      border-top: 1px solid #F1EFEA;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+    }
+    .source-link {
+      color: var(--accent-navy);
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 0;
+    }
+    .source-link:hover {
+      color: var(--accent-crimson);
+      text-decoration: underline;
+    }
+
+    .empty-state {
+      grid-column: 1 / -1;
+      background: var(--paper);
+      border: 1px dashed var(--line);
+      border-radius: var(--radius);
+      padding: 40px 20px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13.5px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 820px) {
+      .brief-strip, .cards-grid, .metrics-grid { grid-template-columns: 1fr; }
+      .masthead-main { padding: 18px 16px 14px; }
+      .container { padding: 16px 16px 40px; }
+      .brand-title { font-size: 24px; }
+      .search-wrap { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="masthead-top">
+      <div class="masthead-top-inner">
+        <span>FINANCIAL COMMERCIAL INTELLIGENCE · 2026年11月25日 · 星期三</span>
+        <span>76 家全量竞对 24H 追踪 · 中国国内（含香港）× 欧洲</span>
+      </div>
+    </div>
+    <div class="masthead-main">
+      <div>
+        <div class="brand-eyebrow">DAILY BRIEFING · 三层情报架构</div>
+        <h1 class="brand-title">金融商分情报</h1>
+        <p class="brand-sub">一层财报与业绩会 · 二层行业动态 · 三层监管动态｜所有条目均附一手信源</p>
+      </div>
+      <div class="search-wrap">
+        <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input id="globalSearch" class="search-input" type="text" placeholder="搜索公司、监管机构或关键词..." />
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav-bar">
+    <div class="nav-inner">
+      <div class="tabs">
+        <button type="button" class="tab-btn active" data-layer="overview">全景总览</button>
+        <button type="button" class="tab-btn" data-layer="layer1">一层 · 财报与业绩会 <span class="tab-count">3</span></button>
+        <button type="button" class="tab-btn" data-layer="layer2">二层 · 行业动态 <span class="tab-count">9</span></button>
+        <button type="button" class="tab-btn" data-layer="layer3">三层 · 监管动态 <span class="tab-count">7</span></button>
+      </div>
+      <div style="display:flex;align-items:center;gap:6px;white-space:nowrap;font-size:12px;color:#6B7280;">
+        <span>往期归档：</span>
+        <select onchange="if(this.value)location.href=this.value" style="font-size:12px;font-weight:600;color:#111827;background:#F6F5F0;border:1px solid #E5E2D9;border-radius:6px;padding:4px 8px;cursor:pointer;">
+          <option value="../../">2026.11.26（最新）</option>
+          <option value="../20261125/" selected>2026.11.25</option>
+        </select>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- Top Executive Brief Strip -->
+    <section class="brief-strip">
+      <div class="brief-box l1">
+        <div class="brief-label"><span>一层 · 财报+业绩会</span><span>0 篇新发</span></div>
+        <div class="brief-stat">PayPal 高管大换血，锚定 Q4 业绩会</div>
+        <div class="brief-desc">近 24h 76 家竞对无新发财报；重点跟踪 PayPal CFO/消金/风控重组与京东并表 CECONOMY 基准。</div>
+      </div>
+      <div class="brief-box l2">
+        <div class="brief-label"><span>二层 · 行业动态</span><span>9 条核心</span></div>
+        <div class="brief-stat">Stripe 估值冲破 $200B · Adyen 联创退休</div>
+        <div class="brief-desc">欧洲 PSP 格局加速分化；Worldline 重启 Global Collect；Temu 扩大与 Mastercard 合作。</div>
+      </div>
+      <div class="brief-box l3">
+        <div class="brief-label"><span>三层 · 监管动态</span><span>7 条政策/执法</span></div>
+        <div class="brief-stat">国内“930新规”提单页整改 · 英国 FCA 管 Agentic AI</div>
+        <div class="brief-desc">已补齐国内消费信贷“930新规”及 11 月配套问答跟踪；同步覆盖央行 8,000 亿 MLF、涉网催收整治与 Shein $1亿和解。</div>
+      </div>
+    </section>
+
+    <section id="appRoot"></section>
+
+    <footer class="footer">
+      <span>金融商分情报 · 期号 2026.11.25（单文件离线可用版）</span>
+      <span>每日上午 10:00 左右自动同步至 652890dima@gmail.com</span>
+    </footer>
+  </main>
+
+  <script>
+    const LAYER1 = {"hasNew": false, "summary": "近 24 小时（11.24–11.25）全量 76 家重点竞对暂无新发布季报/年报或业绩电话会。上一波集中财报季已于上周收官（京东 11/17 披露 Q3 营收 3,096 亿元并表 CECONOMY 59.8%；拼多多 11/19 披露 Q3 营收 1,083 亿元、净利 295 亿元）。", "watchItems": [{"company": "PayPal", "region": "欧洲 / 全球", "date": "2026-11-24", "tag": "Q4 业绩会前瞻 · 高管重组", "headline": "PayPal 宣布 CFO、消费金融/Venmo 及支付与加密核心高管换血，明确将在 Q4 2026 业绩会披露三年战略进展", "metrics": [{"k": "新任 CFO", "v": "Claire Bramley（前 Xero CFO，2027/02/01 履新）"}, {"k": "消金 & Venmo", "v": "Kartik Mani（前美国运通高管）"}, {"k": "支付 & 加密", "v": "Suzan Kereere（原全球市场负责人）"}, {"k": "风控与董事会", "v": "CRO Aaron Webster 离任；前高盛 CRO Brian J. Lee 进董事会"}], "insight": "PayPal 在欧美市场面临 Stripe、Adyen 与 Klarna 双向挤压，同步重组财务、消金与风控班底，核心看点落在 Q4 业绩会给出的 2027 利润率与 BNPL/Venmo 变现指引。", "sourceTitle": "Fintechnews Switzerland", "url": "https://fintechnews.ch/fintechusa/paypal-executive-appointments-cfo-venmo-crypto/87275/"}, {"company": "JD.com / CECONOMY", "region": "中国国内 / 欧洲", "date": "2026-11-17", "tag": "Q3 2026 财报基准", "headline": "京东 Q3 2026 营收 3,096 亿元（+3.5% YoY），11 月 12 日起正式并表欧洲 CECONOMY（MediaMarktSaturn）", "metrics": [{"k": "Q3 净营收", "v": "¥3,096 亿（+3.5% YoY）"}, {"k": "经营利润", "v": "¥52 亿（经营利润率 1.7%）"}, {"k": "Non-GAAP 归母净利", "v": "¥83 亿（净利率 2.7%）"}, {"k": "欧洲并购进展", "v": "€13.35 亿收购 CECONOMY 59.8%（合计持股 85.2%）；Joybuy 211 覆盖欧洲超 80 城"}], "insight": "CECONOMY 并表后将成为京东欧洲零售与本地支付、分期（BNPL）场景落地的核心压舱石。", "sourceTitle": "JD.com Investor Relations", "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-third-quarter-2026-results"}, {"company": "拼多多 PDD Holdings", "region": "中国国内 / 欧洲", "date": "2026-11-19", "tag": "Q3 2026 业绩会基准", "headline": "拼多多 Q3 2026 营收 1,083 亿元同比持平，归母净利微增至 295 亿元，财报当日股价收涨 11%", "metrics": [{"k": "Q3 总营收", "v": "¥1,083 亿（约 $162 亿，同比持平）"}, {"k": "归母净利润", "v": "¥295 亿（上年同期 ¥293 亿）"}, {"k": "市场反馈", "v": "财报当日收盘大涨 11% 至 $86.00"}], "insight": "增速换挡但盈利韧性仍强，资本市场对 Temu 欧洲/全球补贴收敛与合规成本消化给出了正向定价。", "sourceTitle": "Momentum Works · Q&A 纪要", "url": "https://thelowdown.momentum.asia/full-transcript-of-pdd-holdings-q3-2026-earnings-call-qa-section/"}]};
+    const LAYER2 = [{"id": "i01", "featured": true, "region": "eu", "regionLabel": "欧洲", "vertical": "payment", "verticalLabel": "聚合支付 PSP", "date": "2026-11-25", "entity": "Stripe", "title": "WSJ 披露 Stripe 洽谈员工股权要约收购，估值冲破 2,000 亿美元（较今年 2 月大涨 26%）", "summary": "《华尔街日报》11 月 24 日报道，Stripe 正与现有投资方商谈新一轮要约收购，估值超过 2,000 亿美元，较 2026 年 2 月上一轮员工要约的 1,590 亿美元大涨 26%。Stripe 今年已实现强劲盈利，并陆续完成对稳定币基础设施 Bridge、钱包 Privy、计费平台 Metronome 及 AI 路由平台 OpenRouter 的收购。", "insight": "Stripe 通过“收单 + 稳定币（Bridge）+ AI 计费”构筑了远超传统 PSP 的估值溢价，持续以私募流动性替代 IPO，对欧洲商户收单与跨境资金流形成强压制。", "sourceTitle": "Dealroom / WSJ", "url": "https://dealroom.co/news/175379-stripe-eyes-200b-valuation-in-tender-up-26-from-february/"}, {"id": "i02", "region": "eu", "regionLabel": "欧洲", "vertical": "payment", "verticalLabel": "聚合支付 PSP", "date": "2026-11-24", "entity": "Adyen", "title": "Adyen 联创 Pieter van der Does 宣布 12 月 31 日退休，Ingo Uytdehaage 接任唯一 CEO", "summary": "欧洲支付龙头 Adyen 宣布联创 Pieter van der Does 执掌 20 年后将于 2026 年 12 月 31 日卸任联席 CEO 并转任顾问，自 2023 年起担任联席 CEO 的 Ingo Uytdehaage 将出任唯一 CEO，公司重申既定财务目标不变。", "insight": "长达三年的联席 CEO 过渡期平稳收官，后续重点观察 Ingo 单独掌舵后在欧洲本土大零售与北美中大商户的市占率防守。", "sourceTitle": "Fintech News Singapore", "url": "https://fintechnews.sg/142203/payments/adyen-ceo-pieter-van-der-does-retire/"}, {"id": "i03", "region": "eu", "regionLabel": "欧洲", "vertical": "payment", "verticalLabel": "聚合支付 PSP", "date": "2026-11-24", "entity": "Worldline", "title": "法国支付巨头 Worldline 宣布重启 Global Collect 跨境电商支付平台", "summary": "总部位于巴黎的 Worldline S.A. 于 11 月 24 日宣布重新推出 2020 年随 Ingenico 收购而来的 Global Collect 电商支付平台，试图在欧洲及全球电商收单市场重塑品牌与技术竞争力。", "insight": "Worldline 经历过去两年商誉减值与商户流失后重启高识别度旧品牌，意在抢回跨境电商与数字内容商户份额。", "sourceTitle": "Digital Transactions", "url": "https://www.digitaltransactions.net/worldline-relaunches-e-comm-platform-and-other-digital-transactions-news-briefs-from-11-24-26/"}, {"id": "i04", "region": "eu", "regionLabel": "欧洲", "vertical": "bnpl", "verticalLabel": "自营 BNPL 与消金", "date": "2026-11-25", "entity": "Klarna / PayPal / Affirm", "title": "黑五前夕 Klarna 热度指标走强（+5.1），PayPal 与 Affirm 近期股价承压", "summary": "LSEG Lipper 11 月 25 日黑五前瞻监测显示，消费者对大促趋于理性，但 Klarna 市场热度指标明显领先（+5.1），同期 PayPal 与 Affirm 股价出现回调。", "insight": "黑五网一是欧美 BNPL 全年最核心的获客与放款窗口，Klarna 近期叠加 Visa 结账合作后转化优势凸显。", "sourceTitle": "LSEG Lipper Alpha", "url": "https://lipperalpha.refinitiv.com/2026/11/black-friday-wary-consumers-strategic-promotions/"}, {"id": "i05", "region": "eu", "regionLabel": "欧洲", "vertical": "ecommerce", "verticalLabel": "欧洲电商平台", "date": "2026-11-25", "entity": "Temu × Mastercard", "title": "Temu 与 Mastercard 宣布扩大支付与商户生态合作", "summary": "11 月 25 日消息，Temu 与万事达卡（Mastercard）宣布进一步扩大合作范围，深化跨境支付结算与消费者结账体验协同。", "insight": "在欧美关税与合规承压背景下，Temu 通过与国际卡组织深度绑定来优化支付成功率与欺诈风控成本。", "sourceTitle": "Retail World Magazine", "url": "https://retailworldmagazine.com.au/temu-and-mastercard-expand-partnership/"}, {"id": "i06", "region": "eu", "regionLabel": "欧洲", "vertical": "payment", "verticalLabel": "B2B 支付与发卡", "date": "2026-11-24", "entity": "Pliant", "title": "德国企业卡平台 Pliant 获得超 2 亿欧元债务融资，加速欧洲市场扩张", "summary": "柏林企业信用卡与嵌入式 B2B 支付平台 Pliant 11 月 24 日宣布获得超 2 亿欧元债务融资，用于扩大欧洲多国企业卡授信与合作伙伴生态。", "insight": "欧洲 B2B 嵌入式发卡与企业费用管理赛道信贷资金供给充裕，值得关注其与本地 PSP/ERP 的 API 整合打法。", "sourceTitle": "Fintech Global", "url": "https://fintech.global/2026/11/24/pliant-secures-over-e200m-in-debt-to-fuel-european-growth/"}, {"id": "i07", "region": "cn", "regionLabel": "中国国内（含香港）", "vertical": "wealth", "verticalLabel": "财富管理", "date": "2026-11-24", "entity": "国有大行 / 银行理财与黄金市场", "title": "年末银行理财收益大幅回撤，国有大行力推储蓄型保险稳客；现货黄金单日涨 2.72%", "summary": "年末银行理财收益出现明显回撤，国有大行正加力推广储蓄型保险以留存客户，中小银行仍面临存款竞争压力。同期 11 月 24 日国际现货黄金大涨 2.72% 至 3,634.58 美元/盎司。", "insight": "固收理财波动倒逼财富管理平台（含蚂蚁财富及银行代销渠道）将年末主推资产切换至“储蓄险 + 黄金/低波固收”。", "sourceTitle": "中国银行 · 金市观察", "url": "https://www.boc.cn/fimarkets/fm7/202611/t20261124_25707287.html"}, {"id": "i08", "region": "cn", "regionLabel": "中国国内（含香港）", "vertical": "bnpl", "verticalLabel": "消费金融与不良处置", "date": "2026-11-25", "entity": "马上消金 / 兴业消金 / 中信金融资产", "title": "头部持牌消金在沪密集推进金融借款司法清收；中信金融资产山西分公司发布债权竞价公告", "summary": "11 月 24–25 日上海法院开庭公告显示，马上消费金融、兴业消费金融及吉致汽车金融均有多起金融借款合同纠纷集中开庭；同期中信金融资产山西分公司发布不良债权公开竞价补登公告。", "insight": "传统电催空间收窄下，批量司法诉讼与 AMC 市场化转让已成为头部机构年末压降不良的双主线。", "sourceTitle": "中信金融资产", "url": "https://www.famc.citic/ywjs/ywdt/zcczxx/2026/96921.shtml"}, {"id": "i09", "region": "cn", "regionLabel": "中国国内（含香港）", "vertical": "ecommerce", "verticalLabel": "蚂蚁生态与 AI", "date": "2026-11-25", "entity": "蚂蚁集团", "title": "蚂蚁百灵开源 124B 医疗多模态模型，主打本地化部署与高并发场景", "summary": "蚂蚁百灵开源 124B 参数医疗多模态模型并主打本地化部署，蚂蚁集团 CTO 何征宇在沟通会上强调医院高峰期需同时承载数千名用户并发。", "insight": "蚂蚁正通过垂类开源模型强化 B 端机构与医疗生态绑定，进一步反哺支付宝高频服务入口。", "sourceTitle": "华尔街见闻早餐", "url": "https://www.sohu.com/a/1105979955_130887?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334"}];
+    const LAYER3 = [{"id": "r00", "featured": true, "region": "cn", "regionLabel": "中国国内 · 重点主线", "vertical": "bnpl", "verticalLabel": "消费信贷 / 930新规", "date": "2026-09-30 → 11月持续跟踪", "authority": "央行、金融监管总局等八部门", "title": "国内消费信贷“930新规”（《金融产品网络营销管理办法》）落地满月及 11 月首个配套问答：支付信贷强制分区、第三方退分佣、严堵提单页擦边", "summary": "央行会同金融监管总局、工信部、市场监管总局等八部门联合印发的《金融产品网络营销管理办法》（“930新规”）已于 2026 年 9 月 30 日正式施行，要求支付与信贷强制分区（禁止收银台混排诱导无感借贷）、持牌机构总部统审营销文案、第三方平台退出分佣并撤换“秒批/低门槛”话术，叠加 2025 年《助贷新规》24% 综合融资成本红线形成双约束。11 月初首个配套实操问答进一步明确四条底线：流量不得二次转包且须直达持牌机构、API 运营主动权归金融机构、用户授权须逐项单独确认、息费透明公示；实测十大平台显示收银台已基本规范，但商品提单页仍存算法优先推优惠等擦边现象。", "insight": "930新规叠加助贷新规正在重塑国内消费信贷获客与转化底层逻辑：收银台惯性转化率下滑不可逆，中小助贷中介加速出清、银行持续收紧助贷白名单，行业全面转向“持牌自营主导 + 真实消费/小微场景 + 低风险优质客群”的精细化竞争。", "sourceTitle": "东方财富 / 搜狐 · 930新规与11月配套问答实测", "url": "https://www.sohu.com/a/1095788432_115865"}, {"id": "r01", "region": "eu", "regionLabel": "欧洲 / 英国", "vertical": "payment", "verticalLabel": "AI 金融监管", "date": "2026-11-25", "authority": "英国金融行为监管局（FCA）", "title": "英国 FCA 正式上线《Agentic AI 监管方法》专页，并就 2027/28 监管费率及关键第三方（CTP）收费开启咨询", "summary": "11 月 24–25 日，英国 FCA 发布全新专页阐述对自主决策型人工智能（Agentic AI）的监管立场，明确金融与支付机构引入 AI 代理执行交易时的责任边界与风控要求；同日 FCA 就 2027/28 年度监管费率与关键第三方（CTP）收费机制启动公开咨询。", "insight": "FCA 是全球首批针对“AI Agent 自主发起支付/金融操作”划定监管边界的机构，出海欧洲/英国的 AI 电商导购与嵌入式支付团队需提前对标授权与追责框架。", "sourceTitle": "Regulation Tomorrow · FCA", "url": "https://www.regulationtomorrow.com/2026/11/new-fca-webpage-our-approach-to-agentic-ai/"}, {"id": "r02", "region": "eu", "regionLabel": "欧洲 / 欧盟", "vertical": "ecommerce", "verticalLabel": "欧盟立法", "date": "2026-11-25", "authority": "欧洲议会（European Parliament）", "title": "欧洲议会通过第四轮 Omnibus 简化法案：引入“小中型企业”豁免并推动欧盟产品合规报告数字化", "summary": "11 月 24 日，欧洲议会正式通过草案，引入“小中型企业（small mid-cap）”法律定义并将原属中小企业的合规豁免扩展至该群体；同时通过产品信息数字化与通用规范协议，允许企业以数字化方式履行欧盟报告义务。", "insight": "对在欧展业的跨境电商卖家与中型科技金融企业属于边际减负信号，合规申报流程将进一步线上化、标准化。", "sourceTitle": "Regulation Tomorrow · EU", "url": "https://www.regulationtomorrow.com/2026/11/european-parliament-endorses-simplified-rules-and-less-bureaucracy-for-eu-businesses/"}, {"id": "r03", "region": "eu", "regionLabel": "欧美跨国执法", "vertical": "ecommerce", "verticalLabel": "消费者保护与执法", "date": "2026-11-24", "authority": "美国联邦贸易委员会（FTC）", "title": "Shein 同意向美国 FTC 支付 1 亿美元消费者赔偿金，和解物流承诺、压制差评及供应链宣传指控", "summary": "FTC 于 11 月 24 日发布官方公告，Shein 将支付 1 亿美元用于消费者赔付，以和解 FTC 关于其未能兑现物流时效承诺、屏蔽负面评价及供应链宣传误导的指控。同日美国玩具协会抽检报告称 Temu/Shein 89% 玩具存在合规或标识问题。", "insight": "“物流时效承诺 + 评论真实性 + 供应链溯源”与欧盟 DSA 及欧洲各国消保监管高度同频，预计将对 Shein/Temu 在欧合规审查产生示范传导效应。", "sourceTitle": "FTC Official Press Release", "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/shein"}, {"id": "r04", "region": "cn", "regionLabel": "中国国内（含香港）", "vertical": "wealth", "verticalLabel": "货币政策", "date": "2026-11-25", "authority": "中国人民银行（PBOC）", "title": "央行 11 月 25 日开展 8,000 亿元 1 年期 MLF 操作，保持年末银行体系流动性充裕", "summary": "央行公告于 2026 年 11 月 25 日开展 8,000 亿元中期借贷便利（MLF）操作，期限 1 年，以维护年末银行体系流动性合理充裕。", "insight": "资金面保持平稳偏松，直接利好持牌消费金融公司与银行系机构的同业负债成本控制，但也进一步压低固收类理财收益率中枢。", "sourceTitle": "财联社", "url": "https://www.cls.cn/detail/2543066"}, {"id": "r05", "region": "cn", "regionLabel": "中国国内（含香港）", "vertical": "collection", "verticalLabel": "催收与涉网合规", "date": "2026-11-25", "authority": "公安机关 / 政法与网信协同", "title": "人民日报刊文深化涉网黑恶治理，点名“催收、舆情敲诈、网络水军”等软暴力整治并压实平台风控", "summary": "人民日报 11 月 25 日报道深化扫黑除恶行动进展，将“催收、劳务碰瓷、舆情敲诈、网络水军滋事”等涉网黑恶势力列为重点打击对象，并推动公安、网信、市场监管与互联网平台建立线索互通与闭环处置机制。", "insight": "涉网软暴力催收与有组织的“舆情敲诈/反催收黑产”同步处于监管高压线，催收外包质检与自研合规语音监控仍是刚需。", "sourceTitle": "人民网", "url": "http://society.people.com.cn/n1/2026/1125/c1008-40839872.html"}, {"id": "r06", "region": "cn", "regionLabel": "中国国内（含香港）", "vertical": "ecommerce", "verticalLabel": "跨境管制与地缘合规", "date": "2026-11-25", "authority": "美国商务部（出口管制）", "title": "美方将阿里巴巴新加坡子公司列入出口管制黑名单，港股恒生科技指数近两周累跌 13%", "summary": "据 11 月 25 日报道，美国将阿里巴巴新加坡子公司等主体列入出口管制实体名单，引发市场对中资科技平台海外算力与云业务合规风险的担忧，恒生科技指数近两周累计回调 13%。", "insight": "地缘科技管制向中资平台新加坡/海外子公司外溢，对跨境支付、海外云部署及香港金融科技估值均构成持续扰动变量。", "sourceTitle": "Taipei Times", "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/25/2003868323"}];
+
+    const state = {
+      layer: "overview",
+      region: "all",
+      vertical: "all",
+      q: ""
+    };
+
+    const esc = (s) => String(s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+
+    function matchesQuery(text) {
+      if (!state.q.trim()) return true;
+      return text.toLowerCase().includes(state.q.trim().toLowerCase());
+    }
+
+    function renderLayer1Cards() {
+      const items = LAYER1.watchItems.filter((it) =>
+        matchesQuery(`${it.company} ${it.headline} ${it.insight} ${it.metrics.map(m => m.v).join(" ")}`)
+      );
+      return `
+        <div class="notice-banner"><strong>24 小时监测结论：</strong>${esc(LAYER1.summary)}</div>
+        <div class="cards-grid">
+          ${items.length ? items.map((it, idx) => `
+            <article class="card ${idx === 0 ? "featured" : ""}">
+              <div class="card-meta">
+                <div class="tags">
+                  <span class="tag tag-cn">${esc(it.company)}</span>
+                  <span class="tag tag-cat">${esc(it.tag)}</span>
+                  <span class="entity-name">${esc(it.region)}</span>
+                </div>
+                <span class="card-date">${esc(it.date)}</span>
+              </div>
+              <h3 class="card-title">${esc(it.headline)}</h3>
+              <div class="metrics-grid">
+                ${it.metrics.map((m) => `<div class="metric-item"><span class="metric-k">${esc(m.k)}</span><span class="metric-v">${esc(m.v)}</span></div>`).join("")}
+              </div>
+              <div class="insight"><strong>商分解读：</strong>${esc(it.insight)}</div>
+              <div class="card-foot">
+                <span class="card-date">信源 · ${esc(it.sourceTitle)}</span>
+                <a class="source-link" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">查看原始公告 ↗</a>
+              </div>
+            </article>
+          `).join("") : `<div class="empty-state">当前搜索条件下暂无匹配财报条目</div>`}
+        </div>
+      `;
+    }
+
+    function renderNewsCards(items, isReg, showFilters) {
+      const filtered = items.filter((n) => {
+        if (showFilters && state.region !== "all" && n.region !== state.region) return false;
+        if (showFilters && state.vertical !== "all" && n.vertical !== state.vertical) return false;
+        return matchesQuery(`${n.entity || n.authority || ""} ${n.title} ${n.summary} ${n.insight} ${n.verticalLabel}`);
+      });
+
+      let filterHtml = "";
+      if (showFilters) {
+        const cnCnt = items.filter((x) => x.region === "cn").length;
+        const euCnt = items.filter((x) => x.region === "eu").length;
+        const verticals = [
+          { id: "all", label: "全部板块" },
+          { id: "ecommerce", label: "电商" },
+          { id: "payment", label: "支付 / AI" },
+          { id: "bnpl", label: "消金 / BNPL" },
+          { id: "wealth", label: "财富 / 货币" },
+          { id: "collection", label: "催收 / 不良" }
+        ];
+        filterHtml = `
+          <div class="filter-bar">
+            <div class="pill-group">
+              <button type="button" data-region="all" class="pill ${state.region === "all" ? "active" : ""}">全部区域 (${items.length})</button>
+              <button type="button" data-region="eu" class="pill ${state.region === "eu" ? "active" : ""}">欧洲 / 跨国 (${euCnt})</button>
+              <button type="button" data-region="cn" class="pill ${state.region === "cn" ? "active" : ""}">中国国内含港 (${cnCnt})</button>
+            </div>
+            <div class="pill-group">
+              ${verticals.map((v) => `<button type="button" data-vertical="${v.id}" class="pill ${state.vertical === v.id ? "active" : ""}">${v.label}</button>`).join("")}
+            </div>
+          </div>
+        `;
+      }
+
+      return `
+        ${filterHtml}
+        <div class="cards-grid">
+          ${filtered.length ? filtered.map((n, idx) => `
+            <article class="card ${(n.featured && idx === 0) ? ("featured" + (isReg ? " reg" : "")) : ""}">
+              <div class="card-meta">
+                <div class="tags">
+                  <span class="tag ${isReg ? "tag-reg" : (n.region === "eu" ? "tag-eu" : "tag-cn")}">${esc(n.regionLabel)}</span>
+                  <span class="tag tag-cat">${esc(n.verticalLabel)}</span>
+                  <span class="entity-name">${esc(n.entity || n.authority)}</span>
+                </div>
+                <span class="card-date">${esc(n.date)}</span>
+              </div>
+              <h3 class="card-title">${esc(n.title)}</h3>
+              <p class="card-summary">${esc(n.summary)}</p>
+              <div class="insight ${isReg ? "reg" : ""}">
+                <strong>${isReg ? "监管影响：" : "商分解读："}</strong>${esc(n.insight)}
+              </div>
+              <div class="card-foot">
+                <span class="card-date">信源 · ${esc(n.sourceTitle)}</span>
+                <a class="source-link" href="${esc(n.url)}" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a>
+              </div>
+            </article>
+          `).join("") : `<div class="empty-state">当前筛选条件下暂无匹配条目</div>`}
+        </div>
+      `;
+    }
+
+    function render() {
+      document.querySelectorAll(".tab-btn").forEach((b) => {
+        b.classList.toggle("active", b.getAttribute("data-layer") === state.layer);
+      });
+
+      const root = document.getElementById("appRoot");
+      if (state.layer === "overview") {
+        root.innerHTML = `
+          <div class="section-head"><h2>第三层 · 监管动态</h2><span>政策 / 牌照 / 跨国执法（${LAYER3.length} 条）</span></div>
+          ${renderNewsCards(LAYER3, true, false)}
+          <div class="section-head"><h2>第二层 · 行业动态</h2><span>欧洲 & 中国国内含香港重点竞对（${LAYER2.length} 条）</span></div>
+          ${renderNewsCards(LAYER2, false, false)}
+          <div class="section-head"><h2>第一层 · 财报与业绩会</h2><span>近 24h 监测与前瞻基准（${LAYER1.watchItems.length} 条）</span></div>
+          ${renderLayer1Cards()}
+        `;
+      } else if (state.layer === "layer1") {
+        root.innerHTML = renderLayer1Cards();
+      } else if (state.layer === "layer2") {
+        root.innerHTML = renderNewsCards(LAYER2, false, true);
+      } else {
+        root.innerHTML = renderNewsCards(LAYER3, true, true);
+      }
+    }
+
+    document.querySelectorAll(".tab-btn").forEach((b) => {
+      b.addEventListener("click", () => {
+        state.layer = b.getAttribute("data-layer");
+        state.region = "all";
+        state.vertical = "all";
+        render();
+      });
+    });
+
+    document.getElementById("globalSearch").addEventListener("input", (e) => {
+      state.q = e.target.value;
+      render();
+    });
+
+    document.getElementById("appRoot").addEventListener("click", (e) => {
+      const rb = e.target.closest("button[data-region]");
+      if (rb) { state.region = rb.getAttribute("data-region"); render(); return; }
+      const vb = e.target.closest("button[data-vertical]");
+      if (vb) { state.vertical = vb.getAttribute("data-vertical"); render(); return; }
+    });
+
+    render();
+  </script>
+</body>
+</html>

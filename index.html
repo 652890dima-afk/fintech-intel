@@ -502,8 +502,8 @@
         <div class="sb-controls">
           <button id="themeToggle" type="button" class="sb-btn">深色模式</button>
           <select id="archiveSelect" class="sb-select" style="flex:1.15;padding:4px 6px;font-size:11.5px;">
-            <option value="./" selected>2026.11.26</option>
-            <option value="./daily/20261125/">2026.11.25</option>
+            <option value="https://652890dima-afk.github.io/fintech-intel/" selected>2026.11.26</option>
+            <option value="https://652890dima-afk.github.io/fintech-intel/daily/20261125/">2026.11.25</option>
           </select>
         </div>
       </div>
@@ -788,7 +788,14 @@
     });
 
     document.getElementById("archiveSelect").addEventListener("change", (e) => {
-      if (e.target.value) location.href = e.target.value;
+      const url = e.target.value;
+      if (!url) return;
+      if (window.location.protocol === "http:" || window.location.protocol === "https:") {
+        window.location.href = url;
+      } else {
+        window.open(url, "_blank", "noopener,noreferrer");
+        e.target.selectedIndex = 0;
+      }
     });
 
     try {

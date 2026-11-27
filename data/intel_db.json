@@ -1,0 +1,1662 @@
+{
+  "meta": {
+    "version": "2.0",
+    "lastUpdate": "2026-11-27 09:50 +08",
+    "nextUpdate": "2026-11-28 10:00 +08",
+    "totalCompanies": 76
+  },
+  "events": [
+    {
+      "id": "20261127_01",
+      "date": "2026-11-27",
+      "shortDate": "Nov 27",
+      "priority": "P0",
+      "layer": "layer3",
+      "layerLabel": "三层 · 监管",
+      "region": "eu",
+      "regionLabel": "英国 / 欧洲",
+      "vertical": "bnpl",
+      "verticalLabel": "资产证券化 / 监管",
+      "company": "英国 FCA",
+      "code": "UK",
+      "headline": "英国 FCA 发布《Policy Statement 26/25》改革英国资产证券化（Securitisation）监管框架；英国央行同步警告 AI 融资系统性风险",
+      "chips": [
+        {
+          "text": "PS 26/25 资产证券化新规落地",
+          "type": "reg"
+        },
+        {
+          "text": "直接影响 BNPL/消金 ABS 融资",
+          "type": "shift"
+        }
+      ],
+      "summary": "英国 FCA 正式发布 Policy Statement 26/25，落地脱欧后英国资产证券化监管框架改革细则，优化尽调与披露要求；同日英国央行（BoE）警告 AI 基础设施投资热潮带来的债务与融资扩张可能加剧金融体系脆弱性。",
+      "insight": "英国消金与 BNPL 机构（如 Klarna、Zilch、NewDay）高度依赖 ABS 资产证券化作为表外资金来源，PS 26/25 简化合规摩擦将直接改善英国持牌消金的资金端融资效率。",
+      "sourceTitle": "Regulation Tomorrow · FCA PS 26/25",
+      "url": "https://www.regulationtomorrow.com/2026/11/fca-policy-statement-26-25-rules-for-reforming-the-uk-securitisation-framework/"
+    },
+    {
+      "id": "20261127_02",
+      "date": "2026-11-27",
+      "shortDate": "Nov 27",
+      "priority": "P0",
+      "layer": "layer3",
+      "layerLabel": "三层 · 监管",
+      "region": "cn",
+      "regionLabel": "中国国内（含香港）",
+      "vertical": "wealth",
+      "verticalLabel": "货币政策 / 离岸人民币",
+      "company": "中国人民银行",
+      "code": "PB",
+      "headline": "央行 11/27 再开展 7,940 亿元隔夜逆回购（三日累计投放超 2.66 万亿），同步在港起息发行 500 亿元离岸人民币央票",
+      "chips": [
+        {
+          "text": "7,940 亿隔夜逆回购",
+          "type": "achieved"
+        },
+        {
+          "text": "香港 500 亿离岸央票起息",
+          "type": "reg"
+        }
+      ],
+      "summary": "中国人民银行 11 月 27 日开展 7,940 亿元隔夜逆回购操作全额满足一级交易商需求；同时央行通过香港金管局 CMU 平台发行的 500 亿元离岸央票（3 个月 200 亿 + 1 年期 300 亿）已于 11 月 26 日正式起息。",
+      "insight": "境内年末流动性维持充裕压低银行间资金成本，境外通过离岸央票稳汇率并丰富香港高信用等级人民币资产池。",
+      "sourceTitle": "汇通财经 / 香港特区政府新闻公报",
+      "url": "https://www.fx678.com/C/20261127/202611270922262468.html"
+    },
+    {
+      "id": "20261127_03",
+      "date": "2026-11-27",
+      "shortDate": "Nov 27",
+      "priority": "P1",
+      "layer": "layer3",
+      "layerLabel": "三层 · 监管",
+      "region": "eu",
+      "regionLabel": "欧美牌照追踪",
+      "vertical": "payment",
+      "verticalLabel": "银行牌照",
+      "company": "Revolut",
+      "related": [
+        "Highnote",
+        "Payoneer"
+      ],
+      "code": "RV",
+      "headline": "2026 欧美 Fintech 银行牌照提速：发卡平台 Highnote 正式申请 OCC/FDIC 国家银行牌照，Revolut 须在 18 个月内完成美国开业",
+      "chips": [
+        {
+          "text": "OCC 2025-26 批复率 41/43",
+          "type": "reg"
+        },
+        {
+          "text": "Revolut 18 个月开业倒计时",
+          "type": "promised"
+        }
+      ],
+      "summary": "OneSafe 11 月 26 日最新追踪显示，美国 OCC 近两年共下发 43 份 Fintech/Crypto 牌照批复（批准 41 份）：Revolut（9/2）、Mercury（4/24）、Nubank（1/29）及 Payoneer（11/20）获初步有条件批准，Coinbase（11/6）获最终批准；发卡商 Highnote 于 11 月 26 日正式递交国家银行申请。",
+      "insight": "欧美数字银行与发卡基础设施正集体“去合作银行化（直持全牌照）”，以彻底掌控存款资金成本与发卡通道主导权。",
+      "sourceTitle": "OneSafe · Fintech Bank Charter Tracker 2026",
+      "url": "https://www.onesafe.io/blog/fintech-bank-charter-tracker-occ-decisions-2026"
+    },
+    {
+      "id": "20261127_04",
+      "date": "2026-11-27",
+      "shortDate": "Nov 27",
+      "priority": "P1",
+      "layer": "layer2",
+      "layerLabel": "二层 · 行业",
+      "region": "eu",
+      "regionLabel": "欧洲 / 全球",
+      "vertical": "payment",
+      "verticalLabel": "支付基建",
+      "company": "Stripe",
+      "related": [
+        "Adyen",
+        "Airwallex"
+      ],
+      "code": "ST",
+      "headline": "Visa 联合调研称 61% CFO 偏好单一整合支付平台，预测 AI 代理自动化交易量将从 2025 年 33 亿笔激增至 2027 年 340 亿笔",
+      "chips": [
+        {
+          "text": "61% CFO 选择单一平台整合",
+          "type": "shift"
+        },
+        {
+          "text": "2027 AI 代理交易预期 340 亿笔",
+          "type": "promised"
+        }
+      ],
+      "summary": "Fintech Magazine 11 月 26 日深度拆解 Stripe、Adyen 与 Airwallex 支付轨道演进：Airwallex 依托 180+ 国家本地清算网切入企业多币种财资（在法国已推出年化 2.16%–2.33% 活期 Yield），Stripe 凭年处理额近 $2T + 稳定币结算领跑，Adyen 凭单一代码库拿下大型全渠道商户。",
+      "insight": "CFO 削减多供应商复杂度的趋势直接利好单一全栈 PSP（Stripe/Adyen/Airwallex），纯区域性拼接式老牌收单机构持续失血。",
+      "sourceTitle": "Fintech Magazine · Payment Rails Innovation",
+      "url": "https://fintechmagazine.com/news/how-stripe-adyen-airwallex-are-innovating-payment-rails"
+    },
+    {
+      "id": "20261126_01",
+      "date": "2026-11-26",
+      "shortDate": "Nov 26",
+      "priority": "P0",
+      "layer": "layer1",
+      "layerLabel": "一层 · 财报",
+      "region": "cn",
+      "regionLabel": "中国国内",
+      "vertical": "bnpl",
+      "verticalLabel": "消费金融",
+      "company": "信也科技 FinVolution",
+      "code": "FV",
+      "headline": "信也科技 Q3 营收 25.58 亿元（-26.6% YoY）：国内促成贷款骤降 66.8%，海外营收占比升至 37.1%、营业利润翻倍",
+      "chips": [
+        {
+          "text": "国内撮合额 -66.8% YoY",
+          "type": "risk"
+        },
+        {
+          "text": "海外营业利润 +116.4%",
+          "type": "achieved"
+        },
+        {
+          "text": "930/助贷新规首份财报印证",
+          "type": "shift"
+        }
+      ],
+      "metrics": [
+        {
+          "k": "Q3 总营收 / 净利",
+          "v": "¥25.58 亿（-26.6%） / ¥2.06 亿（上年 ¥6.41 亿）"
+        },
+        {
+          "k": "中国内地放款 & 余额",
+          "v": "促成 ¥158 亿（-66.8%），余额 ¥467 亿（-37.6%），90天+逾期 2.50%"
+        },
+        {
+          "k": "海外业务（印尼/菲/澳）",
+          "v": "营收 ¥9.49 亿（+10.9%，占 37.1%），营业利润 ¥6,210 万（+116.4%）"
+        },
+        {
+          "k": "全年指引与杠杆",
+          "v": "维持 2026 全年营收 ¥115–129 亿；现金及短投 ¥83.6 亿，杠杆率 1.5x"
+        }
+      ],
+      "summary": "首份完整反映国内“930新规”与《助贷新规》冲击的上市消金三季报。管理层表示三季度国内机构资金收紧，公司主动压降放款、大砍营销费 66.7% 至 1.84 亿元并聚焦高质量复借（复借占比 91.1%），靠海外高增长对冲国内收缩。",
+      "insight": "国内助贷“高定价覆盖高风险 + 流量转包”旧公式彻底失效，出海东南亚/拉美已成为头部消金平台守住利润率的核心第二曲线。",
+      "sourceTitle": "GlobeNewswire · FinVolution Q3 2026 Results",
+      "url": "https://www.globenewswire.com/news-release/2026/11/25/3410606/0/en/finvolution-group-reports-third-quarter-2026-unaudited-financial-results.html"
+    },
+    {
+      "id": "20261126_02",
+      "date": "2026-11-26",
+      "shortDate": "Nov 26",
+      "priority": "P0",
+      "layer": "layer1",
+      "layerLabel": "一层 · 财报",
+      "region": "eu",
+      "regionLabel": "欧洲",
+      "vertical": "ecommerce",
+      "verticalLabel": "欧洲电商",
+      "company": "Shein",
+      "code": "SH",
+      "headline": "受欧盟 €3 关税 + €2 处理费冲击，Shein Q3 欧洲营收同比下滑 28%，拖累全球总营收下滑 6%",
+      "chips": [
+        {
+          "text": "Q3 欧洲营收 -28%",
+          "type": "risk"
+        },
+        {
+          "text": "本地仓占比 >40%",
+          "type": "achieved"
+        },
+        {
+          "text": "年底本地仓目标 ~50%",
+          "type": "promised"
+        }
+      ],
+      "metrics": [
+        {
+          "k": "Q3 欧洲 / 全球营收",
+          "v": "欧洲 -28% YoY；全球 -6% YoY"
+        },
+        {
+          "k": "欧盟税费叠加",
+          "v": "7 月起 ≤€150 小包收 €3 关税 + 11 月起追加 €2 处理费"
+        },
+        {
+          "k": "履约结构转型",
+          "v": "欧洲本地仓履约占比超 40%，预计 2026 年底接近 50%"
+        }
+      ],
+      "summary": "欧盟小包固定税费对低客单直邮模式的冲击已在 Q3 业绩端显性化；Fable 监测 7 月至 11 月初 Shein 欧洲销售额同比跌超 20%，被迫提价并加速向欧洲本地仓与平台化转型。",
+      "insight": "直邮小包红利在欧洲正式终结，未来欧洲跨境电商的胜负手全面转向本地仓周转效率与本土合规能力。",
+      "sourceTitle": "Briefs Finance · Shein Q3 Europe Sales Fall 28%",
+      "url": "https://www.briefs.co/news/shein-says-european-sales-slumped-28-after-new-import-charge/"
+    },
+    {
+      "id": "20261126_03",
+      "date": "2026-11-26",
+      "shortDate": "Nov 26",
+      "priority": "P1",
+      "layer": "layer2",
+      "layerLabel": "二层 · 行业",
+      "region": "eu",
+      "regionLabel": "欧洲 / 北美",
+      "vertical": "payment",
+      "verticalLabel": "聚合支付 PSP",
+      "company": "Adyen",
+      "related": [
+        "Klarna"
+      ],
+      "code": "AD",
+      "headline": "Adyen 拿下 Roots 超 130 家门店及美加电商单一全渠道收单合约，并同步集成 Klarna 分期与 Adyen Giving",
+      "chips": [
+        {
+          "text": "Adyen 赢得 Roots 全渠道大单",
+          "type": "partner"
+        },
+        {
+          "text": "捆绑 Klarna 开放分期插件",
+          "type": "partner"
+        }
+      ],
+      "summary": "加拿大生活方式品牌 Roots 将超 130 家门店与美加电商统一整合至 Adyen 单一支付栈，同时接入 Klarna 灵活分期与 Adyen Giving。",
+      "insight": "“Adyen 全渠道收单 + Klarna 开放插件”的捆绑打法正加速在连锁零售品牌复制。",
+      "sourceTitle": "Futurum Group · Roots Bets on Adyen",
+      "url": "https://futurumgroup.com/insights/roots-bets-on-adyen-to-unify-payments-across-130-stores/"
+    },
+    {
+      "id": "20261125_01",
+      "date": "2026-11-25",
+      "shortDate": "Nov 25",
+      "priority": "P0",
+      "layer": "layer2",
+      "layerLabel": "二层 · 行业",
+      "region": "eu",
+      "regionLabel": "欧洲 / 全球",
+      "vertical": "payment",
+      "verticalLabel": "聚合支付 PSP",
+      "company": "Worldpay",
+      "related": [
+        "Global Payments"
+      ],
+      "code": "WP",
+      "headline": "私募巨头 GTCR 拟联手华尔街财团以约 500 亿美元（含债）私有化收购 Global Payments（含 Worldpay）",
+      "chips": [
+        {
+          "text": "$50B 潜在私有化并购",
+          "type": "funding"
+        },
+        {
+          "text": "GTCR 现持股 16.35%",
+          "type": "shift"
+        }
+      ],
+      "summary": "GTCR 在监管文件中确认正评估涉及 Global Payments 的战略交易；此前 GTCR 刚通过 Worldpay 交易成为其第一大股东，后者背负约 210 亿美元长期债务。",
+      "insight": "面对 Stripe 与 Adyen 挤压，传统收单巨头正借 PE 私有化重构资产负债表与技术栈。",
+      "sourceTitle": "Digital Transactions · Buyout Firms Target Global Payments",
+      "url": "https://www.digitaltransactions.net/buyout-firms-target-global-payments/"
+    },
+    {
+      "id": "20261125_02",
+      "date": "2026-11-25",
+      "shortDate": "Nov 25",
+      "priority": "P0",
+      "layer": "layer2",
+      "layerLabel": "二层 · 行业",
+      "region": "cn",
+      "regionLabel": "中国香港",
+      "vertical": "payment",
+      "verticalLabel": "数字资产 / RWA",
+      "company": "香港金管局 HKMA",
+      "code": "HK",
+      "headline": "香港金管局正式推出“CMU 数字资产平台”（DLT），拟由债券扩展至基金与现实世界资产（RWA）并对接数码支付",
+      "chips": [
+        {
+          "text": "CMU DLT 平台正式投产",
+          "type": "achieved"
+        },
+        {
+          "text": "规划扩展至基金 & RWA",
+          "type": "promised"
+        }
+      ],
+      "summary": "平台由迅清结算协助营运，金管局总裁余伟文表示将推动 CMU 成为香港多元资产数码金融核心基建，并与数码支付工具（含稳定币生态）实现端到端对接。",
+      "insight": "为中资科技与持牌机构在港布局代币化基金、RWA 发行及稳定币清结算提供了官方底层通道。",
+      "sourceTitle": "中国新闻网 · 香港推出CMU数字资产平台",
+      "url": "https://www.chinanews.com.cn/dwq/2026/11-25/10737740.shtml"
+    },
+    {
+      "id": "20261125_03",
+      "date": "2026-11-25",
+      "shortDate": "Nov 25",
+      "priority": "P0",
+      "layer": "layer2",
+      "layerLabel": "二层 · 行业",
+      "region": "eu",
+      "regionLabel": "欧洲 / 全球",
+      "vertical": "payment",
+      "verticalLabel": "聚合支付 PSP",
+      "company": "Stripe",
+      "code": "ST",
+      "headline": "WSJ 披露 Stripe 洽谈员工股权要约收购，估值冲破 2,000 亿美元（较 2026 年 2 月大涨 26%）",
+      "chips": [
+        {
+          "text": "估值 >$200B (+26%)",
+          "type": "funding"
+        },
+        {
+          "text": "收单 + 稳定币 Bridge + AI 计费",
+          "type": "shift"
+        }
+      ],
+      "summary": "Stripe 拟于 2027 年初完成新一轮员工股权要约（2 月估值为 $159B）；公司已实现强劲盈利，并陆续并购 Bridge、Privy、Metronome 与 OpenRouter。",
+      "insight": "Stripe 持续以私募流动性替代 IPO，并用“支付 + 稳定币 + AI 计费”构筑了远超传统 PSP 的估值溢价。",
+      "sourceTitle": "Dealroom / WSJ · Stripe eyes $200B valuation",
+      "url": "https://dealroom.co/news/175379-stripe-eyes-200b-valuation-in-tender-up-26-from-february/"
+    },
+    {
+      "id": "20261125_04",
+      "date": "2026-11-25",
+      "shortDate": "Nov 25",
+      "priority": "P0",
+      "layer": "layer3",
+      "layerLabel": "三层 · 监管",
+      "region": "eu",
+      "regionLabel": "欧美跨国执法",
+      "vertical": "ecommerce",
+      "verticalLabel": "消费者保护",
+      "company": "Shein",
+      "code": "FT",
+      "headline": "美国 FTC 以 2-0 投票向联邦法院正式提交 Shein 1 亿美元和解终局令（涉物流承诺、删差评及供应链审计）",
+      "chips": [
+        {
+          "text": "$100M 消费者赔付终局令",
+          "type": "risk"
+        },
+        {
+          "text": "严禁删差评与虚报时效",
+          "type": "reg"
+        }
+      ],
+      "summary": "FTC 诉状披露 Shein 日均向美发运近百万包裹但截至 2025 年 9 月仅雇佣 5 名电话客服，终局令严禁其虚报物流时效、屏蔽负面评论及虚构供应链审计。",
+      "insight": "“物流时效 + 评论真实性 + 供应链溯源”与欧盟 DSA 执法高度同频，对出海平台在欧合规具直接示范效应。",
+      "sourceTitle": "News4JAX / FTC Official",
+      "url": "https://www.news4jax.com/news/2026/11/25/shein-ordered-to-pay-100m-for-deceiving-consumers-on-shipping-suppressing-bad-reviews/"
+    },
+    {
+      "id": "20261125_05",
+      "date": "2026-11-25",
+      "shortDate": "Nov 25",
+      "priority": "P1",
+      "layer": "layer3",
+      "layerLabel": "三层 · 监管",
+      "region": "eu",
+      "regionLabel": "英国 / 德国",
+      "vertical": "wealth",
+      "verticalLabel": "FCA · BaFin",
+      "company": "英国 FCA / 德国 BaFin",
+      "code": "UK",
+      "headline": "英国 FCA 启动 20 年来首次 DTR 信息披露规则大修（引入 AI 与代币化适配）；德国 BaFin 发布第三国分行重新发牌通知",
+      "chips": [
+        {
+          "text": "FCA 征求意见截止 2027-01-12",
+          "type": "promised"
+        },
+        {
+          "text": "BaFin 第三国分行重发牌",
+          "type": "reg"
+        }
+      ],
+      "summary": "英国 FCA 拟全面现代化《披露与透明度规则（DTR）》，探索 AI 结构化财报与 DLT 投票权披露；德国 BaFin 明确非欧盟银行分行重新发牌要求。",
+      "insight": "英国正将 AI 与代币化写入底层监管手册，而德国收紧第三国分行牌照合规。",
+      "sourceTitle": "Regulation Tomorrow · FCA DTR Reform",
+      "url": "https://www.regulationtomorrow.com/2026/11/58604/"
+    },
+    {
+      "id": "20261125_06",
+      "date": "2026-11-25",
+      "shortDate": "Nov 25",
+      "priority": "P1",
+      "layer": "layer2",
+      "layerLabel": "二层 · 行业",
+      "region": "eu",
+      "regionLabel": "欧洲",
+      "vertical": "ecommerce",
+      "verticalLabel": "欧洲电商",
+      "company": "Temu",
+      "related": [
+        "拼多多 / Temu"
+      ],
+      "code": "TM",
+      "headline": "Temu 与 Mastercard 宣布扩大跨境支付与商户生态合作",
+      "chips": [
+        {
+          "text": "Temu × Mastercard 扩大合作",
+          "type": "partner"
+        }
+      ],
+      "summary": "双方深化跨境支付结算与结账风控协同，优化欧美市场支付成功率并压降拒付成本。",
+      "insight": "在欧美关税与合规承压期，深度绑定卡组织是 Temu 优化交易摩擦的关键抓手。",
+      "sourceTitle": "Retail World Magazine",
+      "url": "https://retailworldmagazine.com.au/temu-and-mastercard-expand-partnership/"
+    },
+    {
+      "id": "20261124_01",
+      "date": "2026-11-24",
+      "shortDate": "Nov 24",
+      "priority": "P0",
+      "layer": "layer1",
+      "layerLabel": "一层 · 业绩前瞻",
+      "region": "eu",
+      "regionLabel": "欧洲 / 全球",
+      "vertical": "bnpl",
+      "verticalLabel": "BNPL 与支付",
+      "company": "PayPal",
+      "code": "PP",
+      "headline": "PayPal 大规模换血 CFO、消金/Venmo 与支付加密高管，明确将在 Q4 业绩会披露三年战略进展",
+      "chips": [
+        {
+          "text": "新 CFO 2027-02-01 履新",
+          "type": "promised"
+        },
+        {
+          "text": "引入前高盛 CRO 进董事会",
+          "type": "shift"
+        }
+      ],
+      "summary": "前 Xero CFO Claire Bramley 出任 CFO，前美运高管 Kartik Mani 执掌消费金融与 Venmo，Suzan Kereere 负责支付与加密，原 CRO 离任。",
+      "insight": "全面重塑财务、消金与风控班底，核心验证节点落在 Q4 业绩会的 2027 指引。",
+      "sourceTitle": "Fintechnews Switzerland",
+      "url": "https://fintechnews.ch/fintechusa/paypal-executive-appointments-cfo-venmo-crypto/87275/"
+    },
+    {
+      "id": "20261124_02",
+      "date": "2026-11-24",
+      "shortDate": "Nov 24",
+      "priority": "P0",
+      "layer": "layer2",
+      "layerLabel": "二层 · 行业",
+      "region": "eu",
+      "regionLabel": "欧洲",
+      "vertical": "payment",
+      "verticalLabel": "聚合支付 PSP",
+      "company": "Adyen",
+      "code": "AD",
+      "headline": "Adyen 联创 Pieter van der Does 宣布 12 月 31 日退休，Ingo Uytdehaage 接任唯一 CEO，财务目标不变",
+      "chips": [
+        {
+          "text": "CEO 交接 · Dec 31, 2026",
+          "type": "promised"
+        }
+      ],
+      "summary": "执掌公司 20 年后联创转任顾问，持续三年的联席 CEO 过渡正式收官，重申中长期财务指引不变。",
+      "insight": "治理交接平稳落地，后续重点跟踪欧洲大零售与北美市场防守。",
+      "sourceTitle": "Fintech News Singapore",
+      "url": "https://fintechnews.sg/142203/payments/adyen-ceo-pieter-van-der-does-retire/"
+    },
+    {
+      "id": "20261124_03",
+      "date": "2026-11-24",
+      "shortDate": "Nov 24",
+      "priority": "P0",
+      "layer": "layer3",
+      "layerLabel": "三层 · 监管主线",
+      "region": "cn",
+      "regionLabel": "中国国内",
+      "vertical": "bnpl",
+      "verticalLabel": "930新规 / 助贷",
+      "company": "国内消费信贷“930新规”",
+      "related": [
+        "蚂蚁集团 / 支付宝",
+        "抖音（电商/支付/放心借）"
+      ],
+      "code": "930",
+      "headline": "国内消费信贷“930新规”落地及 11 月配套问答：支付信贷强制分区、第三方退分佣、严堵提单页擦边",
+      "chips": [
+        {
+          "text": "930新规已施行",
+          "type": "achieved"
+        },
+        {
+          "text": "严禁流量二次转包与打包授权",
+          "type": "reg"
+        },
+        {
+          "text": "提单页算法诱导仍待整改",
+          "type": "risk"
+        }
+      ],
+      "summary": "央行、金融监管总局等八部门《金融产品网络营销管理办法》（930新规）叠加《助贷新规》24% 红线，11 月初首个配套问答明确流量直达持牌机构、禁止打包授权；实测十大平台收银台已规范但商品提单页仍存擦边。",
+      "insight": "收银台惯性转化率不可逆下滑，行业全面转向持牌自营主导、真实交易场景与优质客群竞争。",
+      "sourceTitle": "搜狐财经 · 11月配套问答实测",
+      "url": "https://www.sohu.com/a/1095788432_115865"
+    },
+    {
+      "id": "20261124_04",
+      "date": "2026-11-24",
+      "shortDate": "Nov 24",
+      "priority": "P1",
+      "layer": "layer3",
+      "layerLabel": "三层 · 监管",
+      "region": "eu",
+      "regionLabel": "英国 / 欧盟",
+      "vertical": "payment",
+      "verticalLabel": "AI 监管 / 欧盟立法",
+      "company": "英国 FCA / 欧洲议会",
+      "code": "EU",
+      "headline": "英国 FCA 上线《Agentic AI 监管方法》专页；欧洲议会通过第四轮 Omnibus 简化法案推进合规数字化",
+      "chips": [
+        {
+          "text": "Agentic AI 监管框架发布",
+          "type": "reg"
+        },
+        {
+          "text": "欧盟引入小中型企业豁免",
+          "type": "achieved"
+        }
+      ],
+      "summary": "FCA 率先为自主决策型 AI 代理发起支付与金融操作划定责任边界；欧洲议会通过第四轮 Omnibus 简化法案，允许企业以数字化方式履行欧盟产品合规报告义务。",
+      "insight": "AI Agent 结账与支付风控已进入英国实质监管视野，出海团队需提前对标授权留痕。",
+      "sourceTitle": "Regulation Tomorrow · FCA",
+      "url": "https://www.regulationtomorrow.com/2026/11/new-fca-webpage-our-approach-to-agentic-ai/"
+    },
+    {
+      "id": "20261117_01",
+      "date": "2026-11-17",
+      "shortDate": "Nov 17",
+      "priority": "P0",
+      "layer": "layer1",
+      "layerLabel": "一层 · 财报基准",
+      "region": "eu",
+      "regionLabel": "中国国内 / 欧洲",
+      "vertical": "ecommerce",
+      "verticalLabel": "欧洲电商",
+      "company": "JD Joybuy / Ceconomy",
+      "code": "JD",
+      "headline": "京东 Q3 营收 3,096 亿元（+3.5%），11 月 12 日正式并表欧洲 CECONOMY（持股 59.8%，对价 €13.35 亿）",
+      "chips": [
+        {
+          "text": "CECONOMY 收购并表完成",
+          "type": "achieved"
+        },
+        {
+          "text": "Joybuy 211 覆盖欧洲 80+ 城",
+          "type": "achieved"
+        }
+      ],
+      "summary": "京东与 Convergenta 合计持有 CECONOMY（MediaMarktSaturn 母公司）85.2% 股权，正式切入欧洲本土 3C 零售网络。",
+      "insight": "为京东欧洲电商及后续本地支付、BNPL 分期场景落地奠定线下与品牌基本盘。",
+      "sourceTitle": "JD.com Investor Relations",
+      "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-third-quarter-2026-results"
+    }
+  ],
+  "milestones": [
+    {
+      "status": "achieved",
+      "statusLabel": "已兑现 Achieved",
+      "targetDate": "2026-11-25",
+      "company": "英国 FCA",
+      "title": "发布 Policy Statement 26/25，落地英国资产证券化监管框架改革",
+      "url": "https://www.regulationtomorrow.com/2026/11/fca-policy-statement-26-25-rules-for-reforming-the-uk-securitisation-framework/"
+    },
+    {
+      "status": "achieved",
+      "statusLabel": "已兑现 Achieved",
+      "targetDate": "2026-11-25",
+      "company": "香港金管局 HKMA",
+      "title": "正式推出基于 DLT 的 CMU 数字资产平台，并规划向基金与 RWA 扩展",
+      "url": "https://www.chinanews.com.cn/dwq/2026/11-25/10737740.shtml"
+    },
+    {
+      "status": "achieved",
+      "statusLabel": "已兑现 Achieved",
+      "targetDate": "2026-11-12",
+      "company": "JD Joybuy / Ceconomy",
+      "title": "完成对欧洲 CECONOMY 59.8% 股权要约收购（€13.35 亿）并正式并表",
+      "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-third-quarter-2026-results"
+    },
+    {
+      "status": "achieved",
+      "statusLabel": "已兑现 Achieved",
+      "targetDate": "2026-09-30",
+      "company": "国内消费信贷“930新规”",
+      "title": "八部门《金融产品网络营销管理办法》正式施行，11/01 落地首个配套问答",
+      "url": "https://www.sohu.com/a/1095788432_115865"
+    },
+    {
+      "status": "risk",
+      "statusLabel": "承压 At Risk",
+      "targetDate": "2026 Q4",
+      "company": "信也科技 FinVolution",
+      "title": "受 930/助贷新规及资金收紧影响，Q3 国内放款骤降 66.8%，Q4 预计持续承压",
+      "url": "https://www.globenewswire.com/news-release/2026/11/25/3410606/0/en/finvolution-group-reports-third-quarter-2026-unaudited-financial-results.html"
+    },
+    {
+      "status": "promised",
+      "statusLabel": "推进中 Promised",
+      "targetDate": "2026-12-31",
+      "company": "Adyen",
+      "title": "联创 Pieter van der Does 退休，Ingo Uytdehaage 出任唯一 CEO",
+      "url": "https://fintechnews.sg/142203/payments/adyen-ceo-pieter-van-der-does-retire/"
+    },
+    {
+      "status": "promised",
+      "statusLabel": "推进中 Promised",
+      "targetDate": "2026 年底",
+      "company": "Shein",
+      "title": "欧洲本地仓发货占比从当前 40%+ 提升至接近 50%，对冲欧盟 €5 小包税费",
+      "url": "https://www.briefs.co/news/shein-says-european-sales-slumped-28-after-new-import-charge/"
+    },
+    {
+      "status": "promised",
+      "statusLabel": "推进中 Promised",
+      "targetDate": "2027-01-12",
+      "company": "英国 FCA",
+      "title": "《披露与透明度规则（DTR）》20 年首修（AI 与代币化适配）征求意见截止",
+      "url": "https://www.regulationtomorrow.com/2026/11/58604/"
+    },
+    {
+      "status": "promised",
+      "statusLabel": "推进中 Promised",
+      "targetDate": "2027-02-01",
+      "company": "PayPal",
+      "title": "新任 CFO Claire Bramley 正式履新，并在 Q4 业绩会披露三年战略进展",
+      "url": "https://fintechnews.ch/fintechusa/paypal-executive-appointments-cfo-venmo-crypto/87275/"
+    },
+    {
+      "status": "promised",
+      "statusLabel": "推进中 Promised",
+      "targetDate": "2028-03",
+      "company": "Revolut",
+      "title": "美国 OCC 国家银行初步有条件批准（18 个月内须完成 FDIC 投保并开业）",
+      "url": "https://www.onesafe.io/blog/fintech-bank-charter-tracker-occ-decisions-2026"
+    }
+  ],
+  "fundingMa": [
+    {
+      "date": "2026-11-25",
+      "company": "Global Payments / Worldpay",
+      "type": "潜在私有化并购",
+      "amount": "~$50B（含债）",
+      "valuation": "$50B EV",
+      "counterparty": "GTCR 牵头华尔街财团",
+      "note": "GTCR 现持股 16.35%，拟结束其 25 年上市历史",
+      "url": "https://www.digitaltransactions.net/buyout-firms-target-global-payments/"
+    },
+    {
+      "date": "2026-11-24",
+      "company": "Stripe",
+      "type": "员工股权要约",
+      "amount": "待定",
+      "valuation": ">$200B (+26%)",
+      "counterparty": "现有投资方",
+      "note": "较 2026 年 2 月 $159B 估值再涨 26%，预计 2027 年初交割",
+      "url": "https://dealroom.co/news/175379-stripe-eyes-200b-valuation-in-tender-up-26-from-february/"
+    },
+    {
+      "date": "2026-11-24",
+      "company": "Pliant",
+      "type": "债务融资",
+      "amount": ">€200M",
+      "valuation": "—",
+      "counterparty": "欧洲债务投资机构",
+      "note": "柏林 B2B 企业卡平台加速欧洲扩张",
+      "url": "https://fintech.global/2026/11/24/pliant-secures-over-e200m-in-debt-to-fuel-european-growth/"
+    },
+    {
+      "date": "2026-11-20",
+      "company": "Payhawk",
+      "type": "Series C",
+      "amount": "—",
+      "valuation": "$2.0B",
+      "counterparty": "高盛领投",
+      "note": "欧洲企业费用管理独角兽估值翻倍",
+      "url": "https://fintechnews.ch/fintechusa/paypal-executive-appointments-cfo-venmo-crypto/87275/"
+    },
+    {
+      "date": "2026-11-12",
+      "company": "JD.com → CECONOMY",
+      "type": "控股并购交割",
+      "amount": "€13.35 亿",
+      "valuation": "持股 59.8%（合计 85.2%）",
+      "counterparty": "CECONOMY / Convergenta",
+      "note": "正式并表欧洲 3C 零售龙头 MediaMarktSaturn",
+      "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-third-quarter-2026-results"
+    },
+    {
+      "date": "2026-11-10",
+      "company": "Affirm → Ratepay",
+      "type": "并购",
+      "amount": "未披露",
+      "valuation": "—",
+      "counterparty": "Nexi（卖方）",
+      "note": "Affirm 借道收购德国白标 BNPL 龙头切入 DACH 市场",
+      "url": "https://fintechnews.ch/fintechusa/paypal-executive-appointments-cfo-venmo-crypto/87275/"
+    }
+  ],
+  "partnerMatrix": {
+    "columns": [
+      "Klarna",
+      "PayPal",
+      "Affirm / Ratepay",
+      "Adyen",
+      "Stripe",
+      "自营/银行白标"
+    ],
+    "rows": [
+      {
+        "merchant": "Amazon (EU/UK)",
+        "region": "泛欧",
+        "cells": [
+          "—",
+          "—",
+          "US主合作",
+          "合作",
+          "核心PSP",
+          "Barclays(UK) / Cofidis(FR) / Zinia(DE)"
+        ]
+      },
+      {
+        "merchant": "Temu (EU)",
+        "region": "泛欧",
+        "cells": [
+          "核心接入",
+          "核心接入",
+          "—",
+          "核心PSP",
+          "合作",
+          "Mastercard 扩大合作 (Nov 25)"
+        ]
+      },
+      {
+        "merchant": "Shein (EU)",
+        "region": "泛欧",
+        "cells": [
+          "核心接入",
+          "核心接入",
+          "—",
+          "核心PSP",
+          "核心PSP",
+          "本地仓占比 >40%"
+        ]
+      },
+      {
+        "merchant": "JD Joybuy / Ceconomy",
+        "region": "德/欧",
+        "cells": [
+          "MediaMarkt接入",
+          "核心接入",
+          "—",
+          "—",
+          "—",
+          "并表 CECONOMY 59.8% (Nov 12)"
+        ]
+      },
+      {
+        "merchant": "Zalando",
+        "region": "DACH/泛欧",
+        "cells": [
+          "核心接入",
+          "核心接入",
+          "—",
+          "核心PSP",
+          "—",
+          "Zalando Payments + Riverty"
+        ]
+      },
+      {
+        "merchant": "Allegro",
+        "region": "波兰/中东欧",
+        "cells": [
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "自营 Allegro Pay + BLIK / PayU"
+        ]
+      },
+      {
+        "merchant": "Otto",
+        "region": "德国",
+        "cells": [
+          "核心接入",
+          "核心接入",
+          "Ratepay",
+          "—",
+          "—",
+          "自营账单/分期 + Unzer"
+        ]
+      },
+      {
+        "merchant": "Very Group",
+        "region": "英国",
+        "cells": [
+          "—",
+          "合作",
+          "—",
+          "—",
+          "—",
+          "自营 Verypay (高渗透信贷)"
+        ]
+      },
+      {
+        "merchant": "Fnac Darty / Cdiscount",
+        "region": "法国",
+        "cells": [
+          "合作",
+          "核心接入",
+          "—",
+          "合作",
+          "—",
+          "Floa(法巴) / Oney / CB"
+        ]
+      },
+      {
+        "merchant": "Roots (零售案例)",
+        "region": "北美/全球",
+        "cells": [
+          "新签接入 (Nov 26)",
+          "—",
+          "—",
+          "新签唯一PSP (Nov 26)",
+          "—",
+          "Adyen Giving 公益结账"
+        ]
+      }
+    ]
+  },
+  "betMap": [
+    {
+      "debate": "分歧 1 · 欧洲 BNPL 入口路线：独立 Checkout 还是开放插件绑定 PSP？",
+      "summary": "2026 年主流格局已向“开放插件 + PSP 深度绑定”与“银行系白标”分化，独立 Checkout 摩擦过高逐步退出主流。",
+      "columns": [
+        {
+          "stance": "开放插件 + PSP 绑定",
+          "players": [
+            "Klarna（剥离 Checkout，全面接入 Adyen/Visa）",
+            "Affirm（收购 Ratepay 切入欧洲）",
+            "Afterpay / Clearpay"
+          ]
+        },
+        {
+          "stance": "自营生态 / 超级钱包",
+          "players": [
+            "PayPal（Pay Later + Venmo 重组）",
+            "Revolut / Monzo Flex",
+            "Zilch（虚拟卡路由）"
+          ]
+        },
+        {
+          "stance": "银行白标 / 嵌入式分期",
+          "players": [
+            "Riverty / NewDay / Unzer",
+            "Pledg（法农） / Floa（法巴）",
+            "Zinia（桑坦德） / Barclays"
+          ]
+        }
+      ]
+    },
+    {
+      "debate": "分歧 2 · 欧洲跨境电商履约：直邮小包 vs 本地仓半托管 vs 收购本土零售？",
+      "summary": "欧盟 €3 关税 + €2 处理费直接击穿低客单直邮模型（Shein Q3 欧洲大跌 28%），三大路线分化清晰。",
+      "columns": [
+        {
+          "stance": "重资产并购本土零售网络",
+          "players": [
+            "JD Joybuy（€13.35 亿并表 CECONOMY）",
+            "Amazon（欧洲 FBA 绝对壁垒）"
+          ]
+        },
+        {
+          "stance": "加速转本地仓 / 半托管",
+          "players": [
+            "Shein（本地仓已超 40%，年底冲 50%）",
+            "Temu（扩大 Mastercard 合作 + 本地备货）",
+            "AliExpress / TikTok Shop"
+          ]
+        },
+        {
+          "stance": "欧洲本土垂类平台防守",
+          "players": [
+            "Allegro（波兰 + Allegro Pay）",
+            "Zalando / Otto / Bol.com / Very Group"
+          ]
+        }
+      ]
+    },
+    {
+      "debate": "分歧 3 · 下一代支付基建：传统收单合并 vs 稳定币/RWA 与 Agentic AI？",
+      "summary": "61% CFO 偏好单一平台整合；老牌收单巨头加速 PE 私有化重组，新一代龙头全面押注稳定币与 AI 代理结账。",
+      "columns": [
+        {
+          "stance": "稳定币 + AI 代理全栈押注",
+          "players": [
+            "Stripe（Bridge + Privy + OpenRouter，$200B）",
+            "Adyen（Adyen Agentic + Klarna 开放标准）",
+            "Airwallex（180+ 国家本地清算 + Yield）",
+            "香港 HKMA（CMU DLT 平台向 RWA 延伸）"
+          ]
+        },
+        {
+          "stance": "传统收单重组 / PE 私有化",
+          "players": [
+            "Global Payments / Worldpay（GTCR 拟 $50B 私有化）",
+            "Worldline（重启 Global Collect）",
+            "Nexi（剥离 Ratepay 聚焦核心）"
+          ]
+        },
+        {
+          "stance": "直持全银行牌照",
+          "players": [
+            "Revolut / Mercury / Nubank（OCC 初步批准）",
+            "Highnote（11/26 正式递交 OCC/FDIC 申请）"
+          ]
+        }
+      ]
+    },
+    {
+      "debate": "分歧 4 · 国内消金在“930新规 + 助贷新规”后的增长出路",
+      "summary": "支付与信贷强制分区 + 24% 红线 + 第三方退分佣下，纯导流助贷规模骤降（信也科技 Q3 国内放款 -66.8%）。",
+      "columns": [
+        {
+          "stance": "海外高利差市场对冲",
+          "players": [
+            "信也科技（海外占比 37.1%，利润翻倍）",
+            "蚂蚁国际（跨境支付与海外数字银行）"
+          ]
+        },
+        {
+          "stance": "真实交易场景 + 持牌自营",
+          "players": [
+            "蚂蚁（支付宝/花呗/借呗合规分区）",
+            "抖音（抖音电商 + 抖音支付 + 放心借）",
+            "头部银行系 & 持牌消金"
+          ]
+        },
+        {
+          "stance": "收缩出清 / 转型纯科技",
+          "players": [
+            "中小助贷与流量转包中介（加速退场）",
+            "上市助贷主动压缩国内高风险撮合"
+          ]
+        }
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "name": "蚂蚁集团 / 支付宝",
+      "group": "cn",
+      "groupLabel": "中国国内（含香港）",
+      "sub": "支付 / 财管 / 消金 / 蚂蚁国际",
+      "profile": {
+        "hq": "杭州 / 香港",
+        "model": "超级钱包 + 蚂蚁国际跨境支付 + 消金/财管",
+        "metric": "支付宝生态核心；蚂蚁百灵开源 124B 医疗模型",
+        "license": "支付牌照 / 消费金融 / 基金代销 / 香港数字银行",
+        "partners": [
+          "阿里生态",
+          "Alipay+",
+          "海外本地钱包"
+        ]
+      }
+    },
+    {
+      "name": "抖音（电商/支付/放心借）",
+      "group": "cn",
+      "groupLabel": "中国国内（含香港）",
+      "sub": "电商 / 支付 / 消费金融",
+      "profile": {
+        "hq": "北京",
+        "model": "内容电商 + 抖音支付 + 放心借/月付",
+        "metric": "国内高频内容电商与内嵌消金核心增长极",
+        "license": "支付牌照 / 小贷 / 保险经纪",
+        "partners": [
+          "持牌消金/商业银行资金方"
+        ]
+      }
+    },
+    {
+      "name": "拼多多 / Temu",
+      "group": "cn",
+      "groupLabel": "中国国内（含香港）",
+      "sub": "国内电商 / 欧洲跨境电商",
+      "profile": {
+        "hq": "上海 / 都柏林",
+        "model": "国内主站 + Temu 全球跨境/半托管",
+        "metric": "Q3 2026 营收 ¥1,083亿 / 净利 ¥295亿",
+        "license": "国内支付 / 欧洲本地化合规主体",
+        "partners": [
+          "Mastercard",
+          "Klarna",
+          "Adyen"
+        ]
+      }
+    },
+    {
+      "name": "Amazon",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商",
+      "profile": {
+        "hq": "西雅图 / 卢森堡",
+        "model": "欧洲第一大电商 + FBA 履约壁垒",
+        "metric": "欧洲多国绝对龙头；持续强化本地分期合作",
+        "license": "欧盟 EMI / 支付实体",
+        "partners": [
+          "Barclays (UK)",
+          "Cofidis (FR/ES)",
+          "Zinia (DE)",
+          "Affirm (US)"
+        ]
+      }
+    },
+    {
+      "name": "Temu",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商"
+    },
+    {
+      "name": "Shein",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商",
+      "profile": {
+        "hq": "新加坡 / 广州",
+        "model": "快时尚直邮 + 欧洲本地仓/Marketplace",
+        "metric": "Q3 欧洲营收 -28% YoY；本地仓占比 >40%",
+        "license": "欧盟 DSA 超大平台监管对象",
+        "partners": [
+          "Klarna",
+          "PayPal",
+          "Stripe",
+          "Adyen"
+        ]
+      }
+    },
+    {
+      "name": "TikTok Shop",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商"
+    },
+    {
+      "name": "AliExpress",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商"
+    },
+    {
+      "name": "eBay",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商"
+    },
+    {
+      "name": "JD Joybuy / Ceconomy",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商",
+      "profile": {
+        "hq": "北京 / 杜塞尔多夫",
+        "model": "欧洲自营电商 + 并表 MediaMarktSaturn",
+        "metric": "Q3 营收 ¥3,096亿；€13.35亿收购 CECONOMY 59.8%",
+        "license": "欧洲本地零售主体（合计持股 85.2%）",
+        "partners": [
+          "CECONOMY / MediaMarktSaturn",
+          "欧洲本地物流"
+        ]
+      }
+    },
+    {
+      "name": "Allegro",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商",
+      "profile": {
+        "hq": "波兹南（波兰）",
+        "model": "中东欧第一大电商 + 自营 Allegro Pay",
+        "metric": "波兰电商绝对龙头，自营分期渗透率领先",
+        "license": "波兰消费信贷实体",
+        "partners": [
+          "Allegro Pay",
+          "BLIK",
+          "PayU"
+        ]
+      }
+    },
+    {
+      "name": "Zalando",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商",
+      "profile": {
+        "hq": "柏林",
+        "model": "欧洲时尚电商龙头 + Zalando Payments",
+        "metric": "德语区与西欧时尚高复购标杆",
+        "license": "德国支付服务实体",
+        "partners": [
+          "Klarna",
+          "PayPal",
+          "Riverty",
+          "Adyen"
+        ]
+      }
+    },
+    {
+      "name": "Very Group",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商"
+    },
+    {
+      "name": "Otto",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商"
+    },
+    {
+      "name": "Vinted",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商"
+    },
+    {
+      "name": "Bol.com",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商"
+    },
+    {
+      "name": "Fnac Darty",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商"
+    },
+    {
+      "name": "Cdiscount",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商"
+    },
+    {
+      "name": "John Lewis",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商"
+    },
+    {
+      "name": "Argos",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商"
+    },
+    {
+      "name": "Currys",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商"
+    },
+    {
+      "name": "Kaufland",
+      "group": "eu_ecom",
+      "groupLabel": "欧洲电商平台",
+      "sub": "欧洲电商"
+    },
+    {
+      "name": "Klarna",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL",
+      "profile": {
+        "hq": "斯德哥尔摩",
+        "model": "全球 BNPL 龙头 → 开放支付插件 + 数字银行",
+        "metric": "1.22 亿活跃用户 / 135 万商户 / 日均 380 万笔",
+        "license": "瑞典全牌照银行（欧盟护照）",
+        "partners": [
+          "Adyen",
+          "Stripe",
+          "Visa",
+          "Roots",
+          "Shein",
+          "Temu"
+        ]
+      }
+    },
+    {
+      "name": "Afterpay / Clearpay",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "PayPal",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL",
+      "profile": {
+        "hq": "圣何塞 / 卢森堡",
+        "model": "双边钱包 + PayPal Pay Later + Braintree + Venmo",
+        "metric": "11/24 高管大换血（新 CFO/消金/支付加密）",
+        "license": "卢森堡银行牌照（欧盟护照）",
+        "partners": [
+          "Venmo",
+          "Braintree",
+          "全球主流电商"
+        ]
+      }
+    },
+    {
+      "name": "Affirm",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL",
+      "profile": {
+        "hq": "旧金山",
+        "model": "透明分期 BNPL + 收购 Ratepay 切入欧洲白标",
+        "metric": "11 月完成收购 Nexi 旗下德国白标龙头 Ratepay",
+        "license": "英国 FCA / 德国 BaFin（经 Ratepay）",
+        "partners": [
+          "Ratepay",
+          "Amazon",
+          "Shopify",
+          "Stripe"
+        ]
+      }
+    },
+    {
+      "name": "Zilch",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "NewDay",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "Payl8r",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "Monzo Flex",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "Riverty",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL",
+      "profile": {
+        "hq": "德国（贝塔斯曼旗下）",
+        "model": "白标 BNPL + 账单支付 + 催收全链路",
+        "metric": "欧洲白标分期与贷后催收双强代表",
+        "license": "欧洲多国支付与催收牌照",
+        "partners": [
+          "欧洲本土电商与出行平台"
+        ]
+      }
+    },
+    {
+      "name": "Billie",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "Revolut",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL",
+      "profile": {
+        "hq": "伦敦",
+        "model": "欧洲第一大数字银行 + 外汇/证券/消金",
+        "metric": "2026/09 获美国 OCC 国家银行初步有条件批准",
+        "license": "立陶宛欧盟银行 / 英国限制性银行 / 奥地利分行筹建",
+        "partners": [
+          "Visa",
+          "Mastercard"
+        ]
+      }
+    },
+    {
+      "name": "N26",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "Zinia",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "Alma",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "Floa",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "Scalapay",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "Oney",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "Cofidis",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "Younited Credit",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "BNP Paribas",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "Société Générale",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "Twisto",
+      "group": "eu_bnpl",
+      "groupLabel": "自营 BNPL 与消金",
+      "sub": "消费金融 / BNPL"
+    },
+    {
+      "name": "Ratepay",
+      "group": "eu_wl",
+      "groupLabel": "白标 BNPL 与技术商",
+      "sub": "白标分期 / 银行技术",
+      "profile": {
+        "hq": "柏林",
+        "model": "DACH 德语区白标 BNPL / 账单支付龙头",
+        "metric": "2026/11 被 Affirm 从 Nexi 手中收购",
+        "license": "德国 BaFin 监管",
+        "partners": [
+          "Affirm",
+          "Nexi",
+          "德语区大型电商"
+        ]
+      }
+    },
+    {
+      "name": "Unzer",
+      "group": "eu_wl",
+      "groupLabel": "白标 BNPL 与技术商",
+      "sub": "白标分期 / 银行技术"
+    },
+    {
+      "name": "Pledg",
+      "group": "eu_wl",
+      "groupLabel": "白标 BNPL 与技术商",
+      "sub": "白标分期 / 银行技术"
+    },
+    {
+      "name": "Splitit",
+      "group": "eu_wl",
+      "groupLabel": "白标 BNPL 与技术商",
+      "sub": "白标分期 / 银行技术"
+    },
+    {
+      "name": "Divido",
+      "group": "eu_wl",
+      "groupLabel": "白标 BNPL 与技术商",
+      "sub": "白标分期 / 银行技术"
+    },
+    {
+      "name": "Kriya",
+      "group": "eu_wl",
+      "groupLabel": "白标 BNPL 与技术商",
+      "sub": "白标分期 / 银行技术"
+    },
+    {
+      "name": "Mondu",
+      "group": "eu_wl",
+      "groupLabel": "白标 BNPL 与技术商",
+      "sub": "白标分期 / 银行技术"
+    },
+    {
+      "name": "Payla",
+      "group": "eu_wl",
+      "groupLabel": "白标 BNPL 与技术商",
+      "sub": "白标分期 / 银行技术"
+    },
+    {
+      "name": "Jifiti",
+      "group": "eu_wl",
+      "groupLabel": "白标 BNPL 与技术商",
+      "sub": "白标分期 / 银行技术"
+    },
+    {
+      "name": "Barclays",
+      "group": "eu_wl",
+      "groupLabel": "白标 BNPL 与技术商",
+      "sub": "白标分期 / 银行技术"
+    },
+    {
+      "name": "Lloyds",
+      "group": "eu_wl",
+      "groupLabel": "白标 BNPL 与技术商",
+      "sub": "白标分期 / 银行技术"
+    },
+    {
+      "name": "MoneySuperMarket",
+      "group": "eu_broker",
+      "groupLabel": "信贷中介与比价",
+      "sub": "导流聚合"
+    },
+    {
+      "name": "Confused.com",
+      "group": "eu_broker",
+      "groupLabel": "信贷中介与比价",
+      "sub": "导流聚合"
+    },
+    {
+      "name": "Check24",
+      "group": "eu_broker",
+      "groupLabel": "信贷中介与比价",
+      "sub": "导流聚合"
+    },
+    {
+      "name": "Smava",
+      "group": "eu_broker",
+      "groupLabel": "信贷中介与比价",
+      "sub": "导流聚合"
+    },
+    {
+      "name": "Stripe",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算",
+      "profile": {
+        "hq": "旧金山 / 都柏林",
+        "model": "开发者优先 PSP + 稳定币 Bridge + AI 计费",
+        "metric": "年处理额近 $2T；最新要约估值 >$200B (+26%)",
+        "license": "欧盟 EMI / 英国 FCA / 全球收单",
+        "partners": [
+          "Bridge",
+          "Privy",
+          "Metronome",
+          "OpenRouter",
+          "HSBC UK"
+        ]
+      }
+    },
+    {
+      "name": "Adyen",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算",
+      "profile": {
+        "hq": "阿姆斯特丹",
+        "model": "单一代码库企业级全渠道收单（Unified Commerce）",
+        "metric": "联创 Pieter 12/31 退休，Ingo 任唯一 CEO",
+        "license": "欧盟银行牌照 / 英国 / 美国联邦分行",
+        "partners": [
+          "Klarna",
+          "Roots",
+          "Uber",
+          "Meta",
+          "eBay",
+          "H&M"
+        ]
+      }
+    },
+    {
+      "name": "Checkout.com",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算",
+      "profile": {
+        "hq": "伦敦",
+        "model": "高通过率跨境电商 PSP",
+        "metric": "11/25 启动全球品牌战役，聚焦授权通过率",
+        "license": "英国 FCA / 欧盟 EMI / 阿联酋",
+        "partners": [
+          "Shein",
+          "跨境数字电商"
+        ]
+      }
+    },
+    {
+      "name": "Worldpay",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算",
+      "profile": {
+        "hq": "辛辛那提 / 伦敦",
+        "model": "全球大型商户收单（已并入 Global Payments）",
+        "metric": "GTCR 拟联手财团以 ~$50B 私有化 Global Payments",
+        "license": "英国 / 欧盟收单牌照",
+        "partners": [
+          "Global Payments",
+          "GTCR"
+        ]
+      }
+    },
+    {
+      "name": "Airwallex",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算",
+      "profile": {
+        "hq": "新加坡 / 墨尔本",
+        "model": "跨境支付 + 多币种资金财资 + 本地清算网",
+        "metric": "覆盖 180+ 国家本地清算；欧洲推企业余额生息 Yield",
+        "license": "英国 / 荷兰 / 香港 / 新加坡牌照",
+        "partners": [
+          "跨境电商与 SaaS 企业"
+        ]
+      }
+    },
+    {
+      "name": "Nexi",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算"
+    },
+    {
+      "name": "Worldline",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算",
+      "profile": {
+        "hq": "巴黎",
+        "model": "欧洲传统收单与支付处理巨头",
+        "metric": "11/24 重启 Global Collect 跨境电商支付平台",
+        "license": "法国 ACPR / 欧盟支付机构",
+        "partners": [
+          "Global Collect",
+          "欧洲多国零售与银行"
+        ]
+      }
+    },
+    {
+      "name": "Mollie",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算"
+    },
+    {
+      "name": "PayU",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算"
+    },
+    {
+      "name": "Computop",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算"
+    },
+    {
+      "name": "EPI / Wero",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算"
+    },
+    {
+      "name": "BLIK",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算"
+    },
+    {
+      "name": "Giropay",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算"
+    },
+    {
+      "name": "Bancontact",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算"
+    },
+    {
+      "name": "Swish",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算"
+    },
+    {
+      "name": "Trustly",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算"
+    },
+    {
+      "name": "Cartes Bancaires (CB)",
+      "group": "eu_psp",
+      "groupLabel": "聚合支付 PSP 与本地支付",
+      "sub": "支付 / 收单 / 本地清结算"
+    }
+  ]
+}
